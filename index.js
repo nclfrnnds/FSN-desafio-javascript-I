@@ -77,16 +77,13 @@ function aprovarAluno(aluno){
     alunosDaEscola.forEach(alunos => {
       if (alunos.nome == aluno) {
         let somaNotas = alunos.notas.reduce((total, nota) => parseInt(total) + parseInt(nota));
-        let mediaNotas = somaNotas / alunos.notas.length;
-        if ((mediaNotas >= 7) && (alunos.faltas <= 3)) {
-          console.log("Aluno(a) " + aluno + " aprovado(a)\n");
-        } else {
-          console.log("Aluno(a) " + aluno + " reprovado(a)\n");
-        }
+        ((somaNotas / alunos.notas.length >= 7) && (alunos.faltas <= 3))?
+          console.log("Aluno(a) " + aluno + " foi aprovado(a)\n"):
+          console.log("Aluno(a) " + aluno + " foi reprovado(a)\n");
       }
     })
   } else {
-    console.log("Aluno(a) " + aluno + " não encontrado(a)\n");
+    console.log("Aluno(a) " + aluno + " não pode ser avaliado pois não foi encontrado(a)\n");
   }  
 }
 
