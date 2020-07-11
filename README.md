@@ -15,7 +15,6 @@
 
  Além disso, esse exercício deverá ser feito de forma individual poderemos avaliar sua evolução no curso, e proporcionar a você uma auto-avaliação.
 
-
  ### O que deverá ser desenvolvido?
 
  Dentro do arquivo `index.js` desse repositório, há uma lista de alunos base. Em nosso sistema, um aluno é descrito com as seguintes informações:
@@ -71,14 +70,7 @@
    }
    ```
 
-### Links utéis
+### Links úteis
    - [Documentação JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
    - [Dicas de Map, Filter e Reduce](https://desenvolvimentoparaweb.com/javascript/map-filter-reduce-javascript/)
    - [Objetos Literais JS](https://tableless.com.br/javascript-objetos-literais-vs-funcoes-construtoras/)
-
-
-
-    
-
-    
-
